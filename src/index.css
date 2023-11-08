@@ -1,5 +1,47 @@
+.cont-portada {
+  text-align: center;
+}
+
+.cont-portada p {
+  padding: 0px 500px;
+  font-size: 1.25em;
+}
+
+.boton {
+  background-color: greenyellow;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.boton:hover {
+  background-color: green;
+}
+
+.cont-juego {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+.pregunta {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.imagen {
+  margin: 20px auto;
+  width: 160px;
+}
+
 .palabra {
+  margin: 20px;
   display: flex;
+  justify-content: center;
 }
 
 .palo {
@@ -7,18 +49,44 @@
   border-bottom: 1px solid black;
   width: 32px;
   height: 45px;
-  text-align: center;
   font-size: 2.5em;
 }
 
 .botones button {
+  box-sizing: border-box;
   margin: 5px;
-  padding: 5px 0;
-  font-size: 1.3em;
+  /* padding: 5px; */
+  font-size: 2.5em;
   background-color: white;
   border: 1px dashed black;
   border-radius: 4px;
   cursor: pointer;
-  width: 35px;
+  width: 50px;
   text-align: center;
+}
+
+.cont-inc,
+.cont-gan {
+  text-align: center;
+}
+
+.cont-inc strong {
+  color: green;
+}
+
+.cont-inc button,
+.cont-gan button {
+  font-size: 1.5em;
+  color: white;
+  background-color: brown;
+  cursor: pointer;
+}
+
+.cont-inc button:hover,
+.cont-gan button:hover {
+  background-color: blue;
+}
+
+.res-inc {
+  color: red;
 }
