@@ -1,9 +1,10 @@
 .cont-portada {
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .cont-portada p {
-  padding: 0px 500px;
   font-size: 1.25em;
 }
 
@@ -89,4 +90,13 @@ img {
 
 .res-inc {
   color: red;
+}
+
+@media screen and (max-width: 425px) {
+  .botones button {
+    margin: 5px;
+    font-size: 1.3em;
+    padding: 3px;
+    width: 30px;
+  }
 }
