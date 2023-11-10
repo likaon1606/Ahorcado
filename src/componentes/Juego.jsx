@@ -34,7 +34,7 @@ const Juego = () => {
   useEffect(() => {
     const loadImagen = async () => {
       try {
-        const dynamicImage = await import(`../assets/arena_${imagen}.png`);
+        const dynamicImage = await import(`../assets/arena_${imagen}.jpg`);
         setImagenSrc(dynamicImage.default);
       } catch (error) {
         console.error('Error al cargar la imagen:', error);
