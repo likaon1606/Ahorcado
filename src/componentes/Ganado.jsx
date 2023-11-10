@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 
-import horca from '../assets/el_ahorcado1.png';
+import horca from '../assets/arena_1.png';
 
 const Ganado = () => {
   const navegacion = useNavigate();

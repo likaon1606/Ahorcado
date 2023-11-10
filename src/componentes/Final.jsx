@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import horca from '../assets/el_ahorcado6.png';
+import horca from '../assets/arena_6.png';
 import { useNavigate } from 'react-router-dom';
 import Contexto from '../Contexto/Contexto';
 
