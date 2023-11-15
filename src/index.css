@@ -1,11 +1,11 @@
 .cont-portada {
+  width: 98%;
   text-align: center;
-  width: 90%;
-  margin: 0 auto;
 }
 
 .cont-portada p {
   font-size: 1.25em;
+  text-align: justify;
 }
 
 .boton {
@@ -21,7 +21,7 @@
 .cont-juego {
   margin: 0 auto;
   text-align: center;
-  width: 70%;
+  width: 98%;
 }
 
 .pregunta {
@@ -36,7 +36,7 @@ img {
 
 .imagen {
   margin: 20px auto;
-  width: 320px;
+  width: 300px;
 }
 
 .palabra {
@@ -92,11 +92,23 @@ img {
   color: red;
 }
 
+@media screen and (max-width: 768px) {
+  .imagen {
+    width: 220px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .botones button {
     margin: 5px;
     font-size: 1.3em;
     padding: 3px;
     width: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .imagen {
+    width: 200px;
   }
 }
